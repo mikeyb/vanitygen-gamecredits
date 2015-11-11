@@ -314,7 +314,7 @@ usage(const char *name)
 "-1            Stop after first match\n"
 "-L            Generate litecoin address\n"
 "-N            Generate namecoin address\n"
-"-G            Generate Peercoin address\n"
+"-G            Generate Gamecredits address\n"
 "-T            Generate bitcoin testnet address\n"
 "-X <version>  Generate address with the given version\n"
 "-F <format>   Generate address with the given format (pubkey, compressed, script)\n"
@@ -402,8 +402,8 @@ main(int argc, char **argv)
 			scriptaddrtype = -1;
 			break;
 		case 'G':
-			addrtype = 55;
-			privtype = 183;
+			addrtype = 38;
+			privtype = 166;
 			scriptaddrtype = -1;
 			break;
 		case 'T':
