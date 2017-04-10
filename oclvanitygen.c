@@ -58,7 +58,7 @@ usage(const char *name)
 "-k            Keep pattern and continue search after finding a match\n"
 "-1            Stop after first match\n"
 "-N            Generate namecoin address\n"
-"-G            Generate Peercoin address\n"
+"-G            Generate gamecoin address\n"
 "-T            Generate bitcoin testnet address\n"
 "-X <version>  Generate address with the given version\n"
 "-e            Encrypt private keys, prompt for password\n"
@@ -146,8 +146,8 @@ main(int argc, char **argv)
 			privtype = 180;
 			break;
 		case 'G':
-			addrtype = 55;
-			privtype = 183;
+			addrtype = 38;
+			privtype = 166;
 			break;
 		case 'T':
 			addrtype = 111;
