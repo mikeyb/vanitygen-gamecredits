@@ -6,9 +6,11 @@
 
 ##  Install
 
+```
 git clone https://github.com/mikeyb/vanitygen-gamecredits.git
 cd vanitygen-gamecredits/
 make
+```
 
 ##  Usage
 
