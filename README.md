@@ -1,6 +1,8 @@
 ##  Requirements
 
-Debian/Ubuntu: `sudo apt install openssl libssl-dev libpcre++-dev git build-essential`
+###  Debian/Ubuntu
+
+`sudo apt install openssl libssl-dev libpcre++-dev git build-essential`
 
 ##  Install
 
